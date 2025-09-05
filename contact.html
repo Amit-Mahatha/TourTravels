@@ -1,0 +1,71 @@
+<head>
+    <link rel="stylesheet" href="./contact.css">
+    
+    <!-- link font  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+			<h1>contact us</h1>
+	</div>
+	<div class="row">
+			<h4 style="text-align:center">We'd love to hear from you!</h4>
+	</div>
+	<form id="contactForm" class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" id="name" name="name" required />
+					<label>Name</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="email" id="email" name="email" required />
+					<label>Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="tel" id="phone" name="phone" placeholder="9876543210" required />
+					<label>Phone Number (Indian Format)</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea id="message" name="message" required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<button type="submit" class="btn-lrg submit-btn">Send Message</button>
+			</div>
+	</form>
+	
+	<!-- Success/Error Messages -->
+	<div id="messageContainer" class="message-container" style="display: none;">
+		<div id="messageText" class="message-text"></div>
+	</div>
+</div>
+
+<!-- >>>>>>>>>>>>>>> F O O T E R <<<<<<<<<<<<<<<   -->
+
+<footer class="flex-c container">
+    <div class="flex-r social-link">
+        <a href="https://github.com/Amit-Mahatha" target="_blank">
+            <i class="fab fa-github"></i></a>
+        <a href="#" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/amit-kumar-mahatha-4a1216210/" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="dev-info">
+        <span>Made with ❤️ by</span>
+        <a href="#" target="_blank">Amit Mahatha</a>
+    </div>
+</footer>
+
+<!-- Link to contact.js -->
+<script src="./contact.js"></script>
+</body>

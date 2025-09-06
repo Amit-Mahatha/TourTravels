@@ -1,5 +1,5 @@
-# Travel website 2
+# Tours and Travels
 
-Demo Link- https://yash-srivastav16.github.io/Tour-website-2/
+Demo Link-  https://amit-mahatha.github.io/TourTravels/
 
- Travel website 2 (html,css,javascript)
+ Tours and Travels(html,css,javascript)
